@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-combiner'
+include 'gradlecombiner'
+findProject(':gradlecombiner')?.name = 'gradle-combiner'
+
